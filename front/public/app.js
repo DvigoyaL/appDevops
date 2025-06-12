@@ -1,4 +1,4 @@
-const API_BASE = 'https://proyectodevopsbackend-evcnbwdbcrdyc0d8.canadacentral-01.azurewebsites.net';
+const API_BASE = window.API_BASE || 'https://proyectodevopsbackend-evcnbwdbcrdyc0d8.canadacentral-01.azurewebsites.net';
 
 function App() {
   const [view, setView] = React.useState('login');
